@@ -1,0 +1,94 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: Arial, sans-serif;
+}
+
+body{
+  background:#f0f2f5;
+}
+
+header{
+  background:#1d9bf0;
+  color:white;
+  text-align:center;
+  padding:20px;
+  position:sticky;
+  top:0;
+}
+
+.container{
+  max-width:600px;
+  margin:20px auto;
+  padding:0 15px;
+}
+
+.create-box{
+  background:white;
+  padding:15px;
+  border-radius:12px;
+  box-shadow:0 1px 3px #ccc;
+  margin-bottom:15px;
+}
+
+.create-box input, .create-box textarea{
+  width:100%;
+  padding:10px;
+  margin-top:10px;
+  border:1px solid #ddd;
+  border-radius:8px;
+  outline:none;
+}
+
+.create-box button{
+  background:#1d9bf0;
+  color:white;
+  border:none;
+  padding:10px 20px;
+  border-radius:20px;
+  margin-top:10px;
+  font-weight:bold;
+  cursor:pointer;
+}
+
+.create-box button:hover{
+  background:#1a8cd8;
+}
+
+.post{
+  background:white;
+  padding:15px;
+  border-radius:12px;
+  margin-bottom:12px;
+  box-shadow:0 1px 3px #ccc;
+}
+
+.post img{
+  width:100%;
+  border-radius:10px;
+  margin-top:10px;
+}
+
+.post .meta{
+  font-size:12px;
+  color:gray;
+  margin-bottom:5px;
+}
+
+.actions{
+  margin-top:10px;
+  display:flex;
+  gap:15px;
+}
+
+.actions span{
+  cursor:pointer;
+  font-size:14px;
+}
+
+.delete-btn{
+  float:right;
+  color:red;
+  cursor:pointer;
+}
